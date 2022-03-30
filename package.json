@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "dev": "deno run --allow-all --watch contract-factori.ts --filename ETH_ADDRESSES --in ./example/abi --out ./example"
+  }
+}
