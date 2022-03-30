@@ -7,7 +7,7 @@ async function main(args: CliArgs): Promise<void> {
     log.info(`
     Parse Alchemix ABis files and addresses for doing multichain stuff
 
-    contract-factori --filename <filename for address json file> --in 
+    contract-factori --filename ETH_ADDRESSES --in "./example/abi" --out "./example"
     `);
 
     return;
